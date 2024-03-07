@@ -1,9 +1,9 @@
 # BREAKOUT - Objects
 
 ### To Do
-* [ ] Creating Objects
-* [ ] Accessing Object Properties
-* [ ] Object Iteration
+* [x] Creating Objects
+* [x] Accessing Object Properties
+* [x] Object Iteration
 * [ ] Questions?
 
 
