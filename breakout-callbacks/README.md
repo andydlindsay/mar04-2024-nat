@@ -6,7 +6,15 @@
 - [ ] Recreate the `.filter` function
 - [ ] Questions?
 
+```js
+{
+  sayHello: () => {}
+}
 
+const log = console.log;
+
+const sayHello = () => {};
+```
 
 
 
