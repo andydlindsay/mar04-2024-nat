@@ -1,0 +1,47 @@
+h2 {
+  color: grey;
+  font-size: 20px;
+  border: 15px solid maroon;
+}
+
+body {
+  color: yellow;
+}
+body div.heading {
+  font-size: 42px;
+  text-decoration: underline;
+}
+body div.heading h2 {
+  color: orange;
+  padding: 10px;
+}
+body div.heading p {
+  color: lightgrey;
+}
+
+.base, .other-class {
+  font-size: 12px;
+  color: green;
+}
+
+.other-class {
+  text-decoration: strike-through;
+}
+
+.small-square {
+  width: 20px;
+  height: 20px;
+  color: green;
+}
+
+.med-square {
+  width: 50px;
+  height: 50px;
+  color: yellow;
+}
+
+.another-style {
+  color: green;
+}
+
+/*# sourceMappingURL=intro.css.map */

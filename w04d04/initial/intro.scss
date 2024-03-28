@@ -1,0 +1,65 @@
+@import 'variables';
+
+h2 {
+  color: $my-var;
+  font-size: 20px;
+  border: $border;
+}
+
+// <body>
+//   <div class="heading">
+//     <h2>Hello</h2>
+//     <p>Good day</p>
+//   </div>
+// </body>
+
+body {
+  color: yellow;
+
+  div.heading {
+    font-size: 42px;
+    text-decoration: underline;
+
+    h2 {
+      color: orange;
+      padding: 10px;
+    }
+
+    p {
+      color: lightgrey;
+    }
+  }
+}
+
+
+.base {
+  font-size: 12px;
+  color: green;
+}
+
+.other-class {
+  @extend .base;
+  text-decoration: strike-through;
+}
+
+@mixin heading-styles ($n, $c) {
+  width: 2 * $n;
+  height: 2 * $n;
+  color: $c;
+}
+
+.small-square {
+  @include heading-styles(10px, green);
+}
+
+.med-square {
+  @include heading-styles(25px, yellow);
+}
+
+// .future-style {
+//   @include heading-styles();
+// }
+
+.another-style {
+  color: green;
+}
