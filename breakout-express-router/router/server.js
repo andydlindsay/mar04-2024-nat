@@ -10,7 +10,7 @@ app.use(morgan('dev'));
 
 // require routers
 const productRouter = require('./routers/product-router');
-const blogpostRouter = require('./routers/blogpost.router');
+const blogpostRouter = require('./routers/blogpost-router');
 
 // set up routers as middleware
 app.use('/api/admin/products', productRouter);
