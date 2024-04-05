@@ -1,5 +1,6 @@
 const pg = require('pg');
-const Client = pg.Client;
+// const Client = pg.Client;
+const Pool = pg.Pool;
 
 const config = {
   user: process.env.DB_USER,
@@ -9,10 +10,10 @@ const config = {
   port: 5432
 };
 
-const client = new Client(config);
+const client = new Pool(config);
 
-client.connect(() => {
-  console.log('connected to database');
-});
+// client.connect(() => {
+//   console.log('connected to database');
+// });
 
 module.exports = client;
