@@ -1,0 +1,14 @@
+// Place all the styles related to the locations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$primary: green;
+$secondary: purple;
+
+.location {
+  color: $primary;
+  border: 2px solid $secondary;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
