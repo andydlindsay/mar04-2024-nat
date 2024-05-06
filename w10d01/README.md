@@ -5,3 +5,28 @@
 - [ ] MVC Review
 - [ ] Quickly build simple Rails app
 - [ ] Nested Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
