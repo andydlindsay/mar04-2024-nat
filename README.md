@@ -6,3 +6,4 @@
 * [W07D03 - Immutable Update Patterns](/w07d03/)
 * [BREAKOUT - AI Pair Programming](/breakout-ai-pair-programming/)
 * [W10D01 - Rails Review](/w10d01/)
+* [W10D03 - Building Chrome Extensions](/w10d03/)
