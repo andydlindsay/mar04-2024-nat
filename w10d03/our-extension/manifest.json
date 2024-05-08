@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Our Extension",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "A different title",
+    "default_icon": "images/icon.png",
+    "default_popup": "popup/popup.html"
+  },
+  "options_page": "options/options.html",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content_script.css"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
