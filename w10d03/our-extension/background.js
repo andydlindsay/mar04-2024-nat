@@ -42,4 +42,3 @@ chrome.alarms.onAlarm.addListener((alarm) => {
     type: 'basic' // 'basic', 'image', 'list', 'progress'
   });
 });
-
